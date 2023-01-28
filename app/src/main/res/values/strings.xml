@@ -1,0 +1,44 @@
+<resources>
+    <!-- Used directly in layout -->
+    <string name="app_name">Images Encryption</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_pw">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="add_img_name">Add Image</string>
+    <string name="take_img_name">Take Picture</string>
+    <string name="app_description">An app for images encryption. Open sourced on https://github.com/rachitsharma300 and developed by Rachit sharma</string>
+    <string name="app_repo_url">https://github.com/rachitsharma300</string>
+    <string name="image_chooser_title">Select Image</string>
+    <string name="app_about">About</string>
+    <string name="about_dialog_title">About This App</string>
+    <string name="about_dialog_positive">Okay</string>
+
+    <!-- Specified in code (e.g., for dialog) -->
+    <string name="login_textview">Please Login</string>
+    <string name="register_textview">Please Register</string>
+    <string name="positiveBtnTxt">Yes</string>
+    <string name="negativeBtnTxt">No</string>
+    <string name="delete_dialog_title">Want to delete this image?</string>
+    <string name="recover_dialog_title">Want to recover this image back to Gallery?</string>
+    <string name="exit_dialog_title">Continue using this app?</string>
+
+    <!-- Messages are created/displayed using Toast -->
+    <string name="signin_msg">Sign in your account</string>
+    <string name="register_msg">Register a new account</string>
+    <string name="account_incorrect_msg">Account is incorrect</string>
+    <string name="account_not_registered_msg">Account cannot be registered</string>
+    <string name="account_not_authenticated_msg">Your are not authenticated. Please sign in first</string>
+    <string name="file_not_found_msg">File not found</string>
+    <string name="file_not_read_msg">Cannot read file</string>
+    <string name="file_not_encrypted_msg">Encryption failed</string>
+    <string name="file_not_decrypted_msg">Decryption failed</string>
+    <string name="file_not_deleted_msg">File cannot be deleted, please try again</string>
+    <string name="image_recovered_msg">Image recovered, go check you Gallery app</string>
+    <string name="image_not_recovered_msg">Image cannot be recovered, please try again</string>
+    <string name="permission_denied_to_recover_msg">Permission Denied. Cannot recover image.</string>
+    <string name="operation_not_supported">Operation is not supported on this device</string>
+    <string name="action_send_msg">Login to encrypt the image that you selected</string>
+
+    <!-- Config -->
+    <string name="fileprovider_auth">com.rachitsharma300.activities.fileprovider</string>
+</resources>
